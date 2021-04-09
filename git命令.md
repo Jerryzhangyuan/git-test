@@ -1,0 +1,23 @@
+一、
+    git init                代码初始化
+    git add .               提交到缓存区
+    git commit -m           提交
+    git status              查看修改的状态
+    git pull                更新
+
+    git remote add origin https://github.com/Jerryzhangyuan.git     远程连接
+
+
+二、
+1、查找所有的操作记录
+    git log                                 查找所有的记录
+    git log --autor='zhangyuan'             查找某一个用户的操作记录
+
+2、配置用户名和邮箱
+    git config --global user.name 'zhangyuan'               配置用户名
+    git config --global user.email '14177112622@qq.com'     配置邮箱
+    git config --global --list                              查看配置的用户名跟邮箱
+
+3、想要删除项目中文件的时候如何操作
+    手动删除
+    命令行删除：git rm demo.html(直接删除成功)
