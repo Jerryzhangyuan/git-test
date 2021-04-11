@@ -30,4 +30,7 @@
     git mv demo.html home（把demo.html文件夹移动到home文件夹中）
     git mv demo.html home/home.html (把demo.html文件夹移动到home文件夹下并且修改为home.html)
 
+6、查看某一个文件的修改记录
+    git log -p demo.html
+
 
