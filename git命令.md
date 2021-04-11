@@ -26,3 +26,8 @@
     手动修改
     命令行修改：git mv demo.html index.html
 
+5、移动文件到其他的位置如何操作
+    git mv demo.html home（把demo.html文件夹移动到home文件夹中）
+    git mv demo.html home/home.html (把demo.html文件夹移动到home文件夹下并且修改为home.html)
+
+
