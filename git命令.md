@@ -24,7 +24,7 @@
 
 4、想要给文件重命名时如何操作
     手动修改
-    命令行修改：git mv demo.html index.html
+    命令行修改：git mv demo.html index.html (把demo.html文件修改为index.html)
 
 5、移动文件到其他的位置如何操作
     git mv demo.html home（把demo.html文件夹移动到home文件夹中）
@@ -33,4 +33,6 @@
 6、查看某一个文件的修改记录
     git log -p demo.html
 
+7、操作失误的情况下如何实现一件还原
+    
 
