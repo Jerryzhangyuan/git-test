@@ -11,7 +11,8 @@
 二、
 1、查找所有的操作记录
     git log                                 查找所有的记录
-    git log --author='zhangyuan'             查找某一个用户的操作记录
+    git log --author='zhangyuan'            查找某一个用户的操作记录
+    git log --oneline --graph               查看版本路线
 
 2、配置用户名和邮箱
     git config --global user.name 'zhangyuan'               配置用户名
@@ -55,5 +56,9 @@
 9、分支的合并(dev分支合并到主分支)
     git merge dev
 
+10、删除不想要的分支
+    (1)、拉取分支： git fetch
+    (2)、查看拉取分支：git fetch -av
+    (3)、删除dev分支：git push origin --delete dev
 
 
