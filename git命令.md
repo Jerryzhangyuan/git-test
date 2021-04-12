@@ -11,7 +11,7 @@
 二、
 1、查找所有的操作记录
     git log                                 查找所有的记录
-    git log --autor='zhangyuan'             查找某一个用户的操作记录
+    git log --author='zhangyuan'             查找某一个用户的操作记录
 
 2、配置用户名和邮箱
     git config --global user.name 'zhangyuan'               配置用户名
@@ -33,11 +33,17 @@
 6、查看某一个文件的修改记录
     git log -p demo.html
 
-7、操作失误的情况下如何实现一件还原
+7、操作失误的情况下如何实现一键还原
     (1)、还没有添加到暂存区，只是误改动了
         git checkout -- demo.html
     (2)、已经提交到暂存区
         git reset HEAD demo.html
         git checkout -- demo.html
+    (3)、代码已经commit提交了
+        A、还原到上一个版本(回到上几个版本，HEAD后面就加几个^)
+            git reset --hard HEAD^
+        B、直接还原到上某个版本(版本id根据git log查看)
+            git reset --hard 版本id
+
 
 
