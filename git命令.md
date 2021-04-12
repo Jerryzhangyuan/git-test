@@ -41,7 +41,7 @@
         git checkout -- demo.html
     (3)、代码已经commit提交了
         A、还原到上一个版本(回到上几个版本，HEAD后面就加几个^)
-            git reset --hard HEAD^
+            git reset --hard "HEAD^"
         B、直接还原到上某个版本(版本id根据git log查看)
             git reset --hard 版本id
 
