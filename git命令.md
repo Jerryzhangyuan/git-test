@@ -45,5 +45,12 @@
         B、直接还原到上某个版本(版本id根据git log查看)
             git reset --hard 版本id
 
+8、分支的创建、删除、切换
+    (1)、创建dev分支：git branch dev
+    (2)、删除dev分支：git branch -d dev
+    (3)、切换到test分支：git checkout test
+    (4)、创建adm分支，并且切换到该分支：git checkout -b adm
+    备注：在当前分支时，当前分支不可以删除。在分支commit了代码，改分支不可以删除，如果要删除，则强制删除(git branch -D test)
+
 
 
