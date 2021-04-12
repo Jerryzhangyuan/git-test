@@ -52,5 +52,8 @@
     (4)、创建adm分支，并且切换到该分支：git checkout -b adm
     备注：在当前分支时，当前分支不可以删除。在分支commit了代码，改分支不可以删除，如果要删除，则强制删除(git branch -D test)
 
+9、分支的合并(dev分支合并到主分支)
+    git merge dev
+
 
 
